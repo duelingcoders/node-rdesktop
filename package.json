@@ -1,0 +1,20 @@
+{
+    "name" : "rdesktop",
+    "version" : "0.0.1",
+    "description" : "The client side of the RDP protocol used for remote desktop in Windows",
+    "author" : "James Halliday",
+    "modules" : {
+        "index" : "./lib/index",
+        "tpdu" : "./lib/tpdu"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/substack/node-rdesktop.git"
+    },
+    "dependencies": {
+        "put": "*",
+        "traverse" : ">=0.2.0",
+        "bufferlist" : ">=0.0.4"
+    },
+    "engine": [ "node >=0.2.0" ]
+}
