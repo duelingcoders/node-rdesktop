@@ -15,3 +15,7 @@ exports.codes = function (assert) {
         })
     });
 };
+
+exports.checksum = function (assert) {
+    // todo: get some externally verified checksum packets
+};
